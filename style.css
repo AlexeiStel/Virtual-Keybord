@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: skyblue;
+}
+
+.text {
+    font-size: 12px;
+    text-align: center;
+}
+.input {
+    width: 940px;
+    height: 240px;
+    background: #aaaaaa;
+    margin: 10px 165px 0;
+    resize: none;
+}
+.keyboard {
+    width: 940px;
+    height: 320px;
+    background: #161616;
+    margin: 0 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.key {       
+    height: 40px;
+    padding: 10px 2px 0;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;  
+    color: rgb(4, 110, 202);   
+}
+.key:hover{
+    color: red;
+    background: aqua;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+    font-size: 23px;
+    border-radius: 10%;
+}
+.simbol {
+    width: 45px;
+    border: 1px solid rgb(14, 11, 151);
+}
+.arrow {
+    border: 3px solid rgb(6, 5, 66);
+}
+.long {
+    width: 110px;
+    border: 3px solid rgb(14, 11, 151);
+}
+.win {
+    width: 45px;
+    border: 3px solid rgb(14, 11, 151);
+}
+.space {
+    width: 300px;
+    border: 3px solid rgb(14, 11, 151);
+}
+.tab {
+    width: 80px;
+    border: 3px solid rgb(14, 11, 151);
+}
+
+.delete {       
+   width: 80px;
+    border-radius: 5px;  
+    color: rgb(4, 110, 202);   
+    border: 3px solid rgb(14, 11, 151);
+}
+.active {
+    background: rgb(247, 23, 23);
+}
+.caps {
+    background: #854127;
+}
